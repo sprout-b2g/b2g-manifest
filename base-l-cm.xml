@@ -115,7 +115,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" />
   <project path="external/safe-iop" name="platform/external/safe-iop" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" remote="aosp" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" remote="aosp" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" />
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
@@ -182,6 +182,7 @@
 
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
 
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" revision="stable/cm-12.1-caf-YOG4P" />
 
   <project path="libcore" name="CyanogenMod/android_libcore" />
@@ -215,14 +216,18 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" />
   
 <!-- SYSTEM -->
+<!--
   <project path="system/bluetoothd" name="mozilla-b2g/platform_system_bluetoothd" revision="master"/>
+  <project path="system/nfcd" name="mozilla-b2g/platform_system_nfcd" revision="master"/>
+-->
   <project path="system/core" name="cm-b2g/platform_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/libfdio" name="mozilla-b2g/platform_system_libfdio" revision="master"/>
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
-  <project path="system/nfcd" name="mozilla-b2g/platform_system_nfcd" revision="master"/>
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
+
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 
 </manifest>
