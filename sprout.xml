@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-l-cm.xml"/>
+
+  <remote name="sprout-b2g" fetch="git://github.com/sprout-b2g/" />
+
+  <project path="device/google/sprout4" name="android_device_google_sprout4" remote="sprout-b2g" revision="b2g/cm-12.1" />
+
+  <project path="device/google/sprout-common" name="android_device_google_sprout-common" remote="sprout-b2g" revision="b2g/cm-12.1" />
+
+  <project path="kernel/mediatek/sprout" name="android_kernel_mediatek_sprout" remote="sprout-b2g" revision="b2g/cm-12.1" />
+
+  <project path="vendor/google" name="proprietary_vendor_google" remote="sprout-b2g" revision="b2g/cm-12.1" />
+
+</manifest>
